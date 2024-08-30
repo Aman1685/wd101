@@ -38,7 +38,7 @@ window.onload = function() {
         newRow.insertCell(1).innerText = user.email;
         newRow.insertCell(2).innerText = user.password;
         newRow.insertCell(3).innerText = user.dob;
-        newRow.insertCell(4).innerText = user.terms ? true : false ;
+        newRow.insertCell(4).innerText = user.terms ? 'true' : 'false' ;
     });
 };
 
