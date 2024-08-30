@@ -20,7 +20,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     newRow.insertCell(1).innerText = email;
     newRow.insertCell(2).innerText = password;
     newRow.insertCell(3).innerText = dob;
-    newRow.insertCell(4).innerText = terms ? 'Yes' : 'No';
+    newRow.insertCell(4).innerText = terms ? 'true' : 'false';
 
     // Store data in localStorage
     const users = JSON.parse(localStorage.getItem('users')) || [];
